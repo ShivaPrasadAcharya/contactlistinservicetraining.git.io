@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Contacts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			padding: 0;
+			margin: 0;
+			background-color: #f2f2f2;
+		}
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		h1 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+		}
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+		a {
+			text-decoration: none;
+			color: #333;
+		}
+		.btn {
+			display: inline-block;
+			padding: 8px 16px;
+			background-color: gray;
+			color: #fff;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.btn:hover {
+			background-color: green;
+		}
+		    #developedby {
+      font-style: italic;
+      color: brown;
+      text-align: left;
+    }
+	</style>
+</head>
+<body>
+  <center><b>न्यायसेवा तालिम केन्द्र <br>सेवाकालिन तालिम <br>२०७९<br><br><u> प्रशिक्षक-प्रशिक्षार्थी विवरण</u></b> </center>
+  <p id="developedby"><u><b>Developed By:</b></u><br> Shiva Prasad Acharya
+    (M.Sc, LL.M)<br> २०७९, चैत</p>
+
+  <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search for names or numbers..">
+  <table id="contacts">
+    <thead>
+      <tr>
+      
+        <th>Name</th>
+        <th>Contact No.</th>
+    
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>Talim Pramukh:<br> Shri Bal Sagar Giri<br>-</td>
+        <td>-</td></tr>
+      <tr>
+          <td>Talim Upa-pramukh: <br>Shri Arun Kumar Jha<br>-</td>
+        <td>-</td></tr>
+      <tr>
+          <td>Section Officer: <br>Shri Shiva Kumar Karki<br>-</td>
+            					<td><a href="tel:+9779841566754">9841566754<br><button class="btn" onclick="call('+9779841566754')">Call</button></a></td>
+				
+</tr>     
+
+
+      <tr>
+          <td>RP:Shri Arhat Swami<br>anandarhat@gmail.com</td>
+            					<td><a href="tel:+9779841410965">9841410965<br><button class="btn" onclick="call('+9779841410965')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Aporba Khatiwoda<br>aporba@gmail.com</td>
+            					<td><a href="tel:+9779841745366">9841745366<br><button class="btn" onclick="call('+9779841745366')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Thagindra Kattel<br>kthagindra@gmail.com</td>
+            					<td><a href="tel:+9779841645340">9841645340<br><button class="btn" onclick="call('+9779841645340')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Phanindra Gautam<br>phanindragautam@gmail.com</td>
+            					<td><a href="tel:+9779851172568">9851172568<br><button class="btn" onclick="call('+9779851172568')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Shyam Kumar Bhattarai<br>sk77bhattarai@yahoo.com</td>
+            					<td><a href="tel:+9779841255640">9841255640<br><button class="btn" onclick="call('+9779841255640')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Govinda Ghimire<br>noemail@gmail.com</td>
+            					<td><a href="tel:+9779841668175">9841668175<br><button class="btn" onclick="call('+9779841668175')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Kashiraj Dahal<br>kashirajdahal50@gmail.com</td>
+            					<td><a href="tel:+9779851022268">9851022268<br><button class="btn" onclick="call('+9779851022268')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Hum Bahadhur KC<br>humk073@gmail.com</td>
+            					<td><a href="tel:+9779851351471">9851351471<br><button class="btn" onclick="call('+9779851351471')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Rewati Tripathi<br>socialjus@gmail.com</td>
+            					<td><a href="tel:+9779851167815">9851167815<br><button class="btn" onclick="call('+9779851167815')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Meera Kumari Dhungana<br>advmeera@gmail.com</td>
+            					<td><a href="tel:+9779841318201">9841318201<br><button class="btn" onclick="call('+9779841318201')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Khem Raj Gyawali<br>khemr.gyawali@gmail.com</td>
+            					<td><a href="tel:+9779841368904">9841368904<br><button class="btn" onclick="call('+9779841368904')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri BalKrishna Khanal<br>yogibalkkhanal@gmail.com</td>
+            					<td><a href="tel:+9779851086359">9851086359<br><button class="btn" onclick="call('+9779851086359')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Mahesh Sharma Poudel<br>mahesh_bsharma@yahoo.com</td>
+            					<td><a href="tel:+9779851086359">9851086359<br><button class="btn" onclick="call('+9779851086359')">Call</button></a></td>
+				
+</tr>     
+
+      <tr>
+          <td>RP:Shri Sanjeev Raj Regmi<br>sanjebregmi@yahoo.com</td>
+            					<td><a href="tel:+9779841359467">9841359467<br><button class="btn" onclick="call('+9779841359467')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Toyanath Adhikari<br>Adhikari07@gmail.com</td>
+            					<td><a href="tel:+9779851147277">9851147277<br><button class="btn" onclick="call('+9779851147277')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Tek Bahadhur Ghimire<br>teksnu@gmail.com</td>
+            					<td><a href="tel:+9779849206156">9849206156<br><button class="btn" onclick="call('+9779849206156')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Nirmala Adhikari<br>noemail@gmail.com</td>
+            					<td><a href="tel:+9779851226530">9851226530<br><button class="btn" onclick="call('+9779851226530')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Dinesh Prasad Ghimire<br>dineshpghimire@gmail.com</td>
+            					<td><a href="tel:+9779851161462">9851161462<br><button class="btn" onclick="call('+9779851161462')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Begendra Sharama<br>brspaudyal@yahoo.com</td>
+            					<td><a href="tel:+9779851103324">9851103324<br><button class="btn" onclick="call('+9779851103324')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Krishnajibi Ghimire<br>ghimirekg@gmail.com</td>
+            					<td><a href="tel:+9779851246333">9851246333<br><button class="btn" onclick="call('+9779851246333')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Sambhu Karki<br>mrskarki@gmail.com</td>
+            					<td><a href="tel:+9779851175684">9851175684<br><button class="btn" onclick="call('+9779851175684')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Lal Bahadhur Kunwar<br>lbkunwar5@gmail.com</td>
+            					<td><a href="tel:+9779841213678">9841213678<br><button class="btn" onclick="call('+9779841213678')">Call</button></a></td>
+				
+</tr>     
+
+      <tr>
+          <td>RP:Shri Bhadrakali Pokharel<br>noemail@gmail.com</td>
+            					<td><a href="tel:+9779841808499">9841808499<br><button class="btn" onclick="call('+9779841808499')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Man Bahadhur Aryal<br>aryman123@gmail.com</td>
+            					<td><a href="tel:+9779851330035">9851330035<br><button class="btn" onclick="call('+9779851330035')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Raju Adhikari<br>omadhiraja@gmail.com</td>
+            					<td><a href="tel:+9779851015091">9851015091<br><button class="btn" onclick="call('+9779851015091')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>RP:Shri Tek Prasad Dhungana<br>dhunganajee71@gmail.com</td>
+            					<td><a href="tel:+9779851196856">9851196856<br><button class="btn" onclick="call('+9779851196856')">Call</button></a></td>
+				
+</tr>     
+
+      <tr>
+          <td> Shri Narayan Prasad Ghimire<br>nghimire1@gmail.com</td>
+            					<td><a href="tel:+9779841395577">9841395577<br><button class="btn" onclick="call('+9779841395577')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Kaushal Prasad Dhungana<br>kaushaldhungana@ag.gov.np</td>
+            					<td><a href="tel:+9779848170612">9848170612<br><button class="btn" onclick="call('+9779848170612')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Mohan Prasad Dahal<br>dahalmohan11@gmail.com</td>
+            					<td><a href="tel:+9779840368792">9840368792<br><button class="btn" onclick="call('+9779840368792')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Bimal Prasad Neupane<br>bimalprasadneupane@gmail.com</td>
+            					<td><a href="tel:+9779844711922">9844711922<br><button class="btn" onclick="call('+9779844711922')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Shanta Lama Waiwa<br>shantalama59@gmail.com</td>
+            					<td><a href="tel:+9779845382613">9845382613<br><button class="btn" onclick="call('+9779845382613')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Sudeep Shakya<br>sudeepshakya13@gmail.com</td>
+            					<td><a href="tel:+9779841451852">9841451852<br><button class="btn" onclick="call('+9779841451852')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Dipesh Pratap Shah<br>dipesh.mkg@gmail.com</td>
+            					<td><a href="tel:+9779851163100">9851163100<br><button class="btn" onclick="call('+9779851163100')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Basanta Kafle<br>kafleb22@gmail.com</td>
+            					<td><a href="tel:+9779842472395">9842472395<br><button class="btn" onclick="call('+9779842472395')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Sanjit Gautam<br>sanjitktm@gmail.com</td>
+            					<td><a href="tel:+9779849344520">9849344520<br><button class="btn" onclick="call('+9779849344520')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Keshav Neupane<br>ikeshavneupane@gmail.com</td>
+            					<td><a href="tel:+9779851188630">9851188630<br><button class="btn" onclick="call('+9779851188630')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Shiva Prasad Acharya<br>spacharya42@gmail.com</td>
+            					<td><a href="tel:+9779849667879">9849667879<br><button class="btn" onclick="call('+9779849667879')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Kali Bahadur Samyu Limbu<br>kalisamyulim@gmail.com</td>
+            					<td><a href="tel:+9779841093758">9841093758<br><button class="btn" onclick="call('+9779841093758')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Kamalkant Joshi<br>regmigko@gmail com</td>
+            					<td><a href="tel:+9779841892403">9841892403<br><button class="btn" onclick="call('+9779841892403')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Gyan Bahadur Karki<br>karkigyan00@gmail.com</td>
+            					<td><a href="tel:+9779849732802">9849732802<br><button class="btn" onclick="call('+9779849732802')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Srideep Wagle<br>shreedeep.wagle@gmail.com</td>
+            					<td><a href="tel:+9779855080100">9855080100<br><button class="btn" onclick="call('+9779855080100')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Sandeep Dhakal<br>sndp.dhakal77@gmail.com</td>
+            					<td><a href="tel:+9779848144685">9848144685<br><button class="btn" onclick="call('+9779848144685')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Yadav Prasad Joshi<br>yadavjoshi2040@gmail.com</td>
+            					<td><a href="tel:+9779849208415">9849208415<br><button class="btn" onclick="call('+9779849208415')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Naveen Acharya<br>newacharya225835@gmail.com</td>
+            					<td><a href="tel:+9779851121186">9851121186<br><button class="btn" onclick="call('+9779851121186')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Subhadra G.C.<br>Subhadra.gc@gmail.com</td>
+            					<td><a href="tel:+9779841240302">9841240302<br><button class="btn" onclick="call('+9779841240302')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Kabita Dahal<br>Kabitadahal1@gmail.com</td>
+					<td><a href="tel:+9779849352578">9849352578<br><button class="btn" onclick="call('+9779849352578')">Call</button></a></td></tr>
+
+       
+          <td>Shri Prem Raj Khaniya<br>p_khaniya@yahoo.com</td>
+            					<td><a href="tel:+9779851038241">9851038241<br><button class="btn" onclick="call('+9779851038241')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Revati Acharya<br>acharyarebati53@gmail.com</td>
+            					<td><a href="tel:+9779846553749">9846553749<br><button class="btn" onclick="call('+9779846553749')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Chandra Kumar Joshi<br>joshi.chandrakumar2015@gmail.com</td>
+            					<td><a href="tel:+9779848758648">9848758648<br><button class="btn" onclick="call('+9779848758648')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Sri Ramashankar Upadhyaya<br>ramshankar.neupane@gmail.com</td>
+            					<td><a href="tel:+9779848302066">9848302066<br><button class="btn" onclick="call('+9779848302066')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Manju Kumari Pokharel<br>manjuk.pokharel@gmail.com</td>
+            					<td><a href="tel:+9779851139453">9851139453<br><button class="btn" onclick="call('+9779851139453')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Tulsa Gaire<br>gaihretulsa2@gmail.com</td>
+            					<td><a href="tel:+9779851130356">9851130356<br><button class="btn" onclick="call('+9779851130356')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Sabina Maharjan<br>maharjansabina648@gmail.com</td>
+            					<td><a href="tel:+9779841015333">9841015333<br><button class="btn" onclick="call('+9779841015333')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Dipendra Rai<br>raidpd@gmail.com</td>
+            					<td><a href="tel:+9779841142895">9841142895<br><button class="btn" onclick="call('+9779841142895')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Lakshmi Prasad Joshi<br>joshilaxmi30@gmail.com</td>
+            					<td><a href="tel:+9779841085644">9841085644<br><button class="btn" onclick="call('+9779841085644')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Surendra Mahato<br>surendra20451105@gmail.com</td>
+            					<td><a href="tel:+9779844220013">9844220013<br><button class="btn" onclick="call('+9779844220013')">Call</button></a></td>
+				
+</tr>     
+      <tr>
+          <td>Shri Pratima Dahal<br>pratima9dahal@gmail.com</td>
+            					<td><a href="tel:+9779851205781">9851205781<br><button class="btn" onclick="call('+9779851205781')">Call</button></a></td>
+				
+</tr>     
+        
+
+    </tbody>
+  </table>
+  <center><b>-भवतु सब्ब मङ्गलम्-</b> </center>
+  <script>
+    function searchFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("search");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("contacts");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            td = tr[i].getElementsByTagName("td")[1];
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+<!--In service training: functionable and important -->
